@@ -19,4 +19,11 @@ The model inputs a specific player's games and uses neural network to learn his 
 
 For the first file named "Fabi.ipynb", we used an American chess player named "Fabiano Caruana". The model studied his games using his ELO as well as his opponent's rating at the time of the game. It also gave a slight edge to whoever was having the white pieces. Lastly, it used the last 10 of his results to quantify his form. The model had 3 layers of architecture and used sigmoid activation function. It attained an accuracy of 72%.
 
-For the second instance, a Dutch super grandmaster "Anish Giri" was the experiment. The model used his strength, the stength of his opposing player as well as Anish's winning or losing form. It got an accuracy of 76%. This is avaliable in the Python file entitled "Anish.ipynb"  
+For the second instance, a Dutch super grandmaster "Anish Giri" was the experiment. The model used his strength, the stength of his opposing player as well as Anish's winning or losing form. It got an accuracy of 76%. This is avaliable in the Python file entitled "Anish.ipynb"
+
+### Results and Analysis:
+
+Our accuracy numbers of 76% might not seem significant but similar works in this field have only generated accuracy of high 60s and low 70s. Moreover, those models were really computationally intensive. Hence, it is not inaccurate to say that this model is groundbreaking. Researchers shoudl try to incorporate the momentum of players into their system and thus add another layer to their predictive model.
+
+##### A detailed paper is available for download in the file hierarchy above: Pricting Chess Game Outcomes Using Deep Learning
+
